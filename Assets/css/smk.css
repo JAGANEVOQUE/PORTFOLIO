@@ -1,0 +1,354 @@
+/* Resetting some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+/* Navigation Bar */
+header {
+    background-color: #333;
+    padding: 20px 0;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+header nav ul li {
+    margin: 0 20px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: color 0.3s;
+}
+
+header nav ul li a:hover {
+    color: #00aaff;
+}
+
+/* Hero Section */
+#hero {
+    background: linear-gradient(45deg, #00aaff, #0066cc);
+    color: #fff;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+#hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+#hero p {
+    font-size: 1.25rem;
+    margin-bottom: 30px;
+}
+
+.cta-button {
+    background-color: #fff;
+    color: #333;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 30px;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #00aaff;
+    color: #fff;
+}
+
+/* About Me Section */
+#about {
+    padding: 60px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+#about h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+}
+
+.about-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.bio {
+    max-width: 600px;
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+/* Projects Section */
+#projects {
+    background-color: #f4f4f9;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+#projects h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+}
+
+.projects-grid {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.project-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 300px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.project-card:hover {
+    transform: translateY(-10px);
+}
+
+.project-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.project-details {
+    padding: 20px;
+}
+
+.project-details h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.project-link {
+    text-decoration: none;
+    color: #00aaff;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.project-link:hover {
+    color: #0066cc;
+}
+
+/* Achievements Section */
+#achievements {
+    background-color: #f4f4f9;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+#achievements h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+}
+
+.achievements-grid {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.achievement-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 300px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.achievement-card:hover {
+    transform: translateY(-10px);
+}
+
+.achievement-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.achievement-details {
+    padding: 20px;
+}
+
+.achievement-details h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.achievement-link {
+    text-decoration: none;
+    color: #00aaff;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.achievement-link:hover {
+    color: #0066cc;
+}
+
+/* Concepts Section */
+#concepts {
+    background-color: #f4f4f9;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+#concepts h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+}
+
+.concepts-grid {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.concept-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 300px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.concept-card:hover {
+    transform: translateY(-10px);
+}
+
+.concept-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.concept-details {
+    padding: 20px;
+}
+
+.concept-details h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.concept-link {
+    text-decoration: none;
+    color: #00aaff;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.concept-link:hover {
+    color: #0066cc;
+}
+
+/* Contact Section */
+#contact {
+    padding: 60px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+#contact h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+form button {
+    width: 100%;
+    padding: 15px;
+    background-color: hsl(202, 88%, 47%);
+    color: #fff;
+    border: none;
+    font-size: 1.1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+    background-color: #0066cc;
+}
+
+/* Footer Section */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 30px 20px;
+    text-align: center;
+}
+
+footer .social-links {
+    margin-top: 20px;
+}
+
+footer .social-links a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 15px;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+footer .social-links a:hover {
+    color: #00aaff;
+}
